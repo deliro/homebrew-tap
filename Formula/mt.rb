@@ -1,23 +1,23 @@
 class Mt < Formula
   desc "Native desktop client for Meshtastic radios (BLE / Serial / TCP)"
   homepage "https://github.com/deliro/mt"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["Apache-2.0", "MIT"]
 
   on_macos do
     on_arm do
-      url "https://github.com/deliro/mt/releases/download/v0.2.0/mt-aarch64-apple-darwin.tar.gz"
-      sha256 "9a7302e3bc8b2743d9276cb2b5ed650221e271261569838ad5b80ea28bfe0f51"
+      url "https://github.com/deliro/mt/releases/download/v0.2.1/mt-aarch64-apple-darwin.tar.gz"
+      sha256 "15ec84c08cbbf293e4ea13fd710a8b637655ff5129fc86dc58dfcfc73c1bf64a"
     end
     on_intel do
-      url "https://github.com/deliro/mt/releases/download/v0.2.0/mt-x86_64-apple-darwin.tar.gz"
-      sha256 "d3bb1c6dbaeb32e82b1f7cc7f374525953e35d22fccf29680be7b94beff19629"
+      url "https://github.com/deliro/mt/releases/download/v0.2.1/mt-x86_64-apple-darwin.tar.gz"
+      sha256 "ae59b8b478c45ea9c170d8bde20cfc12249a4bdcbd97190cd8e51f4679296faf"
     end
   end
 
   on_linux do
-    url "https://github.com/deliro/mt/releases/download/v0.2.0/mt-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "263bccbace916c9560b3eb2bdd52d71a78dca67f9557bcd371eca550efa2e031"
+    url "https://github.com/deliro/mt/releases/download/v0.2.1/mt-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "155c566d86a6f016e271fe36d2385e614d9da055c6a656456d973cda20fbdb0c"
   end
 
   def install
